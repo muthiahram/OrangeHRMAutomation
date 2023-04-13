@@ -1,0 +1,8 @@
+com\orangehrm\pageobject\LoginPage.class
+com\orangehrm\pageobject\BaseClass.class
+com\orangehrm\testcase\TC_LoginTestDDT_001.class
+com\orangehrm\utilities\XLUtils.class
+com\orangehrm\utilities\ReadConfig.class
+com\orangehrm\pageobject\AddEmployeePage.class
+com\orangehrm\testcase\TC_AddEmployee_002.class
+com\orangehrm\testcase\TC_LoginTest_001.class
