@@ -2,38 +2,38 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-13T08:47:06 IST" name="Suite" finished-at="2023-04-13T08:47:39 IST" duration-ms="32874">
+  <suite started-at="2023-04-14T17:56:34 IST" name="OrangeHRMAutomation" finished-at="2023-04-14T17:58:16 IST" duration-ms="102681">
     <groups>
     </groups>
-    <test started-at="2023-04-13T08:47:06 IST" name="Orange HRM Automation" finished-at="2023-04-13T08:47:39 IST" duration-ms="32874">
+    <test started-at="2023-04-14T17:56:34 IST" name="Orange HRM Automation" finished-at="2023-04-14T17:58:16 IST" duration-ms="102681">
       <class name="com.orangehrm.testcase.TC_AddEmployee_002">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.testcase.TC_AddEmployee_002@57a3af25]" started-at="2023-04-13T08:47:19 IST" name="setUp" finished-at="2023-04-13T08:47:25 IST" duration-ms="6403" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.testcase.TC_AddEmployee_002@4c1f22f3]" started-at="2023-04-14T17:57:18 IST" name="setUp" finished-at="2023-04-14T17:58:01 IST" duration-ms="43205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addEmployee()[pri:0, instance:com.orangehrm.testcase.TC_AddEmployee_002@57a3af25]" started-at="2023-04-13T08:47:25 IST" name="addEmployee" finished-at="2023-04-13T08:47:39 IST" duration-ms="13724" status="PASS">
+        <test-method signature="addEmployee()[pri:0, instance:com.orangehrm.testcase.TC_AddEmployee_002@4c1f22f3]" started-at="2023-04-14T17:58:01 IST" name="addEmployee" finished-at="2023-04-14T17:58:16 IST" duration-ms="15385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.testcase.TC_AddEmployee_002@57a3af25]" started-at="2023-04-13T08:47:39 IST" name="tearDown" finished-at="2023-04-13T08:47:39 IST" duration-ms="162" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.testcase.TC_AddEmployee_002@4c1f22f3]" started-at="2023-04-14T17:58:16 IST" name="tearDown" finished-at="2023-04-14T17:58:16 IST" duration-ms="80" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.testcase.TC_AddEmployee_002 -->
       <class name="com.orangehrm.testcase.TC_LoginTest_001">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.testcase.TC_LoginTest_001@4fb0f2b9]" started-at="2023-04-13T08:47:06 IST" name="setUp" finished-at="2023-04-13T08:47:16 IST" duration-ms="9765" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.orangehrm.testcase.TC_LoginTest_001@60856961]" started-at="2023-04-14T17:56:34 IST" name="setUp" finished-at="2023-04-14T17:57:12 IST" duration-ms="38721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest()[pri:0, instance:com.orangehrm.testcase.TC_LoginTest_001@4fb0f2b9]" started-at="2023-04-13T08:47:16 IST" name="loginTest" finished-at="2023-04-13T08:47:19 IST" duration-ms="2652" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.orangehrm.testcase.TC_LoginTest_001@60856961]" started-at="2023-04-14T17:57:12 IST" name="loginTest" finished-at="2023-04-14T17:57:17 IST" duration-ms="5172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.testcase.TC_LoginTest_001@4fb0f2b9]" started-at="2023-04-13T08:47:19 IST" name="tearDown" finished-at="2023-04-13T08:47:19 IST" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.testcase.TC_LoginTest_001@60856961]" started-at="2023-04-14T17:57:17 IST" name="tearDown" finished-at="2023-04-14T17:57:18 IST" duration-ms="78" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.testcase.TC_LoginTest_001 -->
     </test> <!-- Orange HRM Automation -->
-  </suite> <!-- Suite -->
+  </suite> <!-- OrangeHRMAutomation -->
 </testng-results>
