@@ -1,0 +1,9 @@
+09:14:45.653 [AsyncHttpClient-1-5] DEBUG io.netty.handler.ssl.SslHandler - [id: 0x8a06d6d2, L:/192.168.43.2:61656 - R:ondemand.eu-central-1.saucelabs.com/185.94.26.249:443] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+09:15:44.458 [main] INFO  com.orangehrm.pageobject.BaseClass - Launched the application url
+09:27:30.221 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+09:27:30.241 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+09:27:30.242 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+09:27:30.250 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@78faea5f
+09:27:30.282 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+09:27:30.283 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+09:27:30.284 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available

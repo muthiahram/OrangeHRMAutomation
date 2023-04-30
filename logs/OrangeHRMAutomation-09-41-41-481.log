@@ -1,0 +1,8 @@
+09:41:41.401 [TestNG-tests-1] DEBUG io.netty.util.concurrent.GlobalEventExecutor - -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+09:41:41.426 [TestNG-tests-1] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 16
+09:41:41.445 [TestNG-tests-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+09:41:41.446 [TestNG-tests-1] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+09:41:41.464 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5818fb52
+09:41:41.467 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@50e63946
+09:41:41.472 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@770ede5c
+09:41:41.476 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2f8a2167

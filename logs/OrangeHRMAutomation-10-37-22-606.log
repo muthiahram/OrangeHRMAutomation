@@ -1,0 +1,8 @@
+10:37:22.518 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@2ec6a081
+10:37:22.531 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@414f5dbb
+10:37:22.537 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@35eb1971
+10:37:22.544 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@5ef0572f
+10:37:22.549 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@45a926d8
+10:37:22.605 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 16
+10:37:22.606 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 16
+10:37:22.606 [TestNG-tests-1] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192

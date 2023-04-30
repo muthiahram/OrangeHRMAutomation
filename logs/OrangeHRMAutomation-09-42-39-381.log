@@ -1,0 +1,7 @@
+09:41:43.877 [AsyncHttpClient-1-3] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+09:41:44.151 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xc774431517206c8e
+09:42:36.845 [TestNG-tests-2] INFO  com.orangehrm.pageobject.BaseClass - Launched the application url
+09:42:36.859 [TestNG-tests-1] INFO  com.orangehrm.pageobject.BaseClass - Launched the application url
+09:42:38.633 [AsyncHttpClient-1-10] DEBUG io.netty.handler.ssl.util.InsecureTrustManagerFactory - Accepting a server certificate: CN=ondemand.eu-central-1.saucelabs.com
+09:42:38.750 [AsyncHttpClient-1-9] DEBUG io.netty.handler.ssl.util.InsecureTrustManagerFactory - Accepting a server certificate: CN=ondemand.eu-central-1.saucelabs.com
+09:42:39.303 [AsyncHttpClient-1-10] DEBUG io.netty.handler.ssl.SslHandler - [id: 0xc4d2aee2, L:/192.168.43.2:63543 - R:ondemand.eu-central-1.saucelabs.com/185.94.26.249:443] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256

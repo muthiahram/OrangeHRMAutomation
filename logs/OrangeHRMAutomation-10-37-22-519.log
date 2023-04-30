@@ -1,0 +1,7 @@
+10:37:22.473 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@370ce4bc
+10:37:22.482 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@3a36bb7a
+10:37:22.488 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@7b8907e5
+10:37:22.492 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@346845d9
+10:37:22.500 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@64916eec
+10:37:22.506 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@6b73f46f
+10:37:22.512 [TestNG-tests-1] TRACE io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@58f670cb

@@ -1,0 +1,8 @@
+09:42:39.380 [AsyncHttpClient-1-9] DEBUG io.netty.handler.ssl.SslHandler - [id: 0x341145ef, L:/192.168.43.2:63542 - R:ondemand.eu-central-1.saucelabs.com/185.94.26.249:443] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+10:29:08.534 [TestNG-tests-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+10:29:08.546 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+10:29:08.546 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+10:29:08.553 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@53398297
+10:29:08.583 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+10:29:08.584 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+10:29:08.586 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available

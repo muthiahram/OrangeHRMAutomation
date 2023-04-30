@@ -28,11 +28,10 @@ public class ReadConfig {
 		
 	}
 	
-	
-	public String getBrowser() {
-		String br= prop.getProperty("browser");
-		return br;
-	}
+	/*
+	 * public String getBrowser() { String br= prop.getProperty("browser"); return
+	 * br; }
+	 */
 	
 	public String getUserName() {
 		String username= prop.getProperty("uname");
@@ -48,4 +47,11 @@ public class ReadConfig {
 		String appurl=prop.getProperty("url");
 		return appurl;
 	}
+	
+	public String getHuburl() {
+		String hurl=prop.getProperty("huburl");
+		return hurl;
+	}
+	
+	
 }

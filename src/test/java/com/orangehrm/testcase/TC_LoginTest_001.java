@@ -17,7 +17,7 @@ public class TC_LoginTest_001 extends BaseClass {
 	public void loginTest() {
 
 		LoginPage lp = new LoginPage(driver);
-
+         driver.get(appurl);
 		lp.inputUname(username);
 		lp.inputPwd(pwd);
 		lp.clickLgnButton();

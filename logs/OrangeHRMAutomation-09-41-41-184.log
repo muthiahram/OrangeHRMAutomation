@@ -1,0 +1,8 @@
+09:28:06.422 [AsyncHttpClient-1-5] DEBUG io.netty.handler.ssl.SslHandler - [id: 0xe999976c, L:/192.168.43.2:62505 - R:ondemand.eu-central-1.saucelabs.com/185.94.26.249:443] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+09:29:28.028 [main] INFO  com.orangehrm.pageobject.BaseClass - Launched the application url
+09:41:41.112 [TestNG-tests-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+09:41:41.139 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+09:41:41.141 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+09:41:41.149 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6c08c4c
+09:41:41.181 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+09:41:41.181 [TestNG-tests-1] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17

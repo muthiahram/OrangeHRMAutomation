@@ -1,0 +1,10 @@
+14:34:08.559 [main] INFO  com.orangehrm.pageobject.BaseClass - Launched the application url
+14:34:21.988 [main] INFO  com.orangehrm.pageobject.BaseClass - All the employee details are set
+14:34:25.156 [main] INFO  com.orangehrm.pageobject.BaseClass - Employee details saved successfully and the Employee page breadcrumb is verified
+15:00:48.346 [main] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+15:00:48.361 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+15:00:48.362 [main] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+15:00:48.367 [main] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7a93b263
+15:00:48.396 [main] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+15:00:48.396 [main] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 17
+15:00:48.398 [main] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available

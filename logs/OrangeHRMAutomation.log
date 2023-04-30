@@ -1,3 +1,9 @@
-17:37:56.240 [main] INFO  com.orangehrm.pageobject.BaseClass - Launched the application url
-17:38:08.941 [main] INFO  com.orangehrm.pageobject.BaseClass - All the employee details are set
-17:38:12.045 [main] INFO  com.orangehrm.pageobject.BaseClass - Employee details saved successfully and the Employee page breadcrumb is verified
+12:34:26.265 [Forwarding newSession on session null to remote] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: 5c:87:9c:ff:fe:dd:2e:76 (auto-detected)
+12:34:26.342 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+12:34:26.343 [AsyncHttpClient-1-2] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+12:34:26.343 [AsyncHttpClient-1-2] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@20f4b9e1
+12:34:26.640 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+12:34:26.649 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+12:34:26.649 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+12:34:26.649 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+12:34:26.650 [AsyncHttpClient-1-2] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.batchFastThreadLocalOnly: true

@@ -1,0 +1,7 @@
+10:46:03.757 [AsyncHttpClient-1-2] DEBUG io.netty.handler.ssl.util.InsecureTrustManagerFactory - Accepting a server certificate: CN=ondemand.eu-central-1.saucelabs.com
+10:46:04.148 [AsyncHttpClient-1-2] DEBUG io.netty.handler.ssl.SslHandler - [id: 0xceebb480, L:/192.168.43.2:49794 - R:ondemand.eu-central-1.saucelabs.com/185.94.26.249:443] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+10:46:08.735 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+12:34:25.247 [TestNG-tests-1] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using Log4J2 as the default logging framework
+12:34:25.265 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+12:34:25.266 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+12:34:25.271 [TestNG-tests-1] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4ffaf3a3

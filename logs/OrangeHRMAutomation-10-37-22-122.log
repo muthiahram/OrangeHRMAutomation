@@ -1,0 +1,7 @@
+10:29:11.000 [AsyncHttpClient-1-2] DEBUG io.netty.handler.ssl.util.InsecureTrustManagerFactory - Accepting a server certificate: CN=ondemand.eu-central-1.saucelabs.com
+10:29:11.327 [AsyncHttpClient-1-2] DEBUG io.netty.handler.ssl.SslHandler - [id: 0xf192657c, L:/192.168.43.2:64972 - R:ondemand.eu-central-1.saucelabs.com/185.94.26.249:443] HANDSHAKEN: protocol:TLSv1.2 cipher suite:TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+10:29:15.698 [AsyncHttpClient-1-2] DEBUG io.netty.handler.codec.compression.Brotli - brotli4j not in the classpath; Brotli support will be unavailable.
+10:29:20.770 [TestNG-tests-1] INFO  com.orangehrm.pageobject.BaseClass - Entered the credentials successfully
+10:29:21.051 [TestNG-tests-1] INFO  com.orangehrm.pageobject.BaseClass - The login page title is verified
+10:29:40.196 [TestNG-tests-1] INFO  com.orangehrm.pageobject.BaseClass - All the employee details are set
+10:29:44.621 [TestNG-tests-1] INFO  com.orangehrm.pageobject.BaseClass - Employee details saved successfully and the Employee page breadcrumb is verified

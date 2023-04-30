@@ -20,7 +20,7 @@ public class TC_AddEmployee_002 extends BaseClass {
 	public void addEmployee() throws InterruptedException, IOException {
 		AddEmployeePage aep = new AddEmployeePage(driver);
 		LoginPage lp = new LoginPage(driver);
-
+        driver.get(appurl);
 		lp.inputUname(username);
 		lp.inputPwd(pwd);
 		lp.clickLgnButton();

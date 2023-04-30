@@ -8,6 +8,9 @@ import org.testng.annotations.BeforeTest;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang.reflect.Method;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.sql.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
@@ -16,6 +19,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.MutableCapabilities;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -23,6 +27,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -41,48 +47,66 @@ public class BaseClass {
 	public String appurl = rc.getUrl();
 	public String username = rc.getUserName();
 	public String pwd = rc.getPassword();
-	public String br = rc.getBrowser();
+	public String hurl = rc.getHuburl();
 	public static Logger logger = LogManager.getLogger(BaseClass.class);
+
 	
-
+	@Parameters({ "browser", "platform" })
 	@BeforeMethod
+	public void setUp(String browserName, String platformName,Method name) {
+		System.out.println(browserName);
+		String methodName = name.getName();
+		MutableCapabilities sauceOpts = new MutableCapabilities();
+		 sauceOpts.setCapability("name", methodName);
+		sauceOpts.setCapability("build", "Java-W3C-Examples");
+		sauceOpts.setCapability("seleniumVersion", "4.8.2");
+		sauceOpts.setCapability("username", "oauth-gomathimuthiah90-feab0");
+		sauceOpts.setCapability("accessKey", "86358a53-8064-4fe5-b4c2-bf352f26fd23");
+		sauceOpts.setCapability("tags", "w3c-chrome-tests");
 
-	public void setUp() {
+		DesiredCapabilities cap = new DesiredCapabilities();
+		cap.setCapability("sauce:options", sauceOpts);
+		cap.setCapability("browserVersion", "latest");
+		cap.setCapability("platformName", platformName);
 
-		if (br.equalsIgnoreCase("chrome")) {
+		if (browserName.equalsIgnoreCase("chrome")) {
 
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
 
-			driver.get(appurl);
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-			logger.info("Launched the application url");
+			cap.setCapability("browserName", "chrome");
+
 		}
 
-		else if (br.equalsIgnoreCase("edge")) {
+		else if (browserName.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
-			driver = new EdgeDriver();
-			driver.get(appurl);
+			cap.setCapability("browserName", "edge");
 
 		}
 
-		else if (br.equalsIgnoreCase("firefox")) {
+		else if (browserName.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
-			driver = new FirefoxDriver();
-			driver.get(appurl);
+			cap.setCapability("browserName", "firefox");
 
 		}
 
-		else if (br.equalsIgnoreCase("ie")) {
+		else if (browserName.equalsIgnoreCase("ie")) {
 			WebDriverManager.iedriver().setup();
-			driver = new InternetExplorerDriver();
-			driver.get(appurl);
+			cap.setCapability("browserName", "ie");
 
+		}
+
+		try {
+			driver = new RemoteWebDriver(new URL(
+					"https://oauth-gomathimuthiah90-feab0:86358a53-8064-4fe5-b4c2-bf352f26fd23@ondemand.eu-central-1.saucelabs.com:443/wd/hub"),
+					cap);
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
 		}
 
 	}
 
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 
 	public void tearDown() {
 		driver.close();
